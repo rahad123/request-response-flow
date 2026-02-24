@@ -52,6 +52,7 @@ When traffic reaches an **API Gateway**:
 1. **Security**: If the request is HTTPS, it validates **SSL/TLS** certificates.
 2. **Health Checks**: The gateway identifies and routes traffic only to **healthy services** or EC2 instances.
 3. **Service Discovery**: It routes the user to a specific service based on the path.
+4. **Rate Limiting**: It limits the number of requests from a specific user or IP address.
 
 **Example Routing:**
 
@@ -61,6 +62,6 @@ When traffic reaches an **API Gateway**:
 
 ---
 
-## 🏁 Full Flow Overview
+## 🏁 Full Flow as a Diagram for Microservices
 
-The entire flow from request to response involves complex orchestration between protocols, networking hardware, and cloud-native services to ensure reliability and performance.
+![Full Flow as a Diagram for Microservices](diagram-export-25-02-2026-00_07_35.png)
